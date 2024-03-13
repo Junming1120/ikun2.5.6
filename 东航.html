@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<style>
+h1 {color:rgb(54, 54, 66);
+    font-family: fantasy;
+    font-size: 300%;
+}   
+span.h1title {color:rgb(54, 54, 66);
+    font-family: fantasy;
+    font-size: 300%;
+}
+p {font-family: monospace;font-size: 150%;}
+body {background-image: url(data:image/png;base64,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);
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.nav-bar { 
+        background-color: #bccce3; 
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 10px; 
+    }
+    .nav-bar a{ 
+        float: left; 
+        display: block; 
+        color: rgb(1, 15, 26); 
+        padding: 15px 20px;
+        text-align: center; 
+        text-decoration:wavy;
+        font-family: monospace;
+    } 
+    .nav-bar a:hover{background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/78/B-919A%40PEK_%2820221226151722%29.jpg);
+    background-size: cover;
+    text-align: center;
+}   
+
+</style>
+<script>
+</script>
+</head>    
+<body>
+    <h1>World's First C919 Delivered to China Eastern Airlines</h1>
+    <img src="http://m.comac.cc/cp/c919/202212/09/W020221209401705367110.jpg" alt="919" style="width:1100px;height:550px;text-align: center;padding-left: 45px;">
+    <p>On December 9, 2022, a C919 large passenger aircraft numbered B-919A departed from Shanghai Pudong International Airport to Shanghai Hongqiao Airport, marking the delivery of the world's first C919 large passenger aircraft to its first customer, China Eastern Airlines Corporation Limited (hereinafter referred to as "China Eastern Airlines".) The first delivery and upcoming route operation of the C919 large passenger aircraft will provide more choices for global airlines and customers, and bring more opportunities for global suppliers and partners to better serve the needs of global air travelers for better travel. The delivery of the first C919 large passenger aircraft and its upcoming flight operations will provide more choices for global airlines and customers, bring more opportunities for global suppliers and partners, inject new vitality into the global commercial aircraft industry, and better serve the needs of global air travelers for better travel.</p>
+    <p>This is another major milestone in the development of China's large aircraft industry. It means that for more than 30 years, the global civil aviation transportation market will welcome the latest newly developed single-aisle mainline aircraft. After several generations of efforts, China's civil aviation transportation market will have China's self-developed jetliner for the first time, and the large aircraft business has entered a new journey of scale and serialization, which is of great significance in promoting the cooperation and innovation of the global aviation industry chain, accelerating the supply-side structural reform of China's civil aviation transportation market, and helping to build a new pattern of domestic and international development that is mutually reinforced by the dual-cycle.</p>
+    <p>The delivery ceremony was themed "Hand in Hand for a New Era". COMAC delivered the "Commemorative Key for the World's First C919" to China Eastern Airlines and issued the aircraft sales certificate, while the Civil Aviation Administration of China (CAAC) issued the Certificate of Nationality Registration (CNR), the Certificate of Airworthiness (AC) of a single aircraft, and the Radio License to China Eastern Airlines.</p>
+    <p>The C919 large passenger airplane delivered to China Eastern Airlines has a special paint job and "ID number". On the front of the fuselage is printed the "world's first" "China Seal" logo and the corresponding English. Aircraft registration number B-919A, "B" on behalf of the Chinese nationality of the aircraft, "919" and the model name fits, "A" has the meaning of the first, highlighting the global new model, The "A" is the first of its kind, emphasizing the extraordinary significance of this new global model and the first of its kind in the world. The aircraft has a 164-seat, two-class layout, with 8 seats in business class and 156 seats in economy class. The cabin interiors, passenger seats, in-flight entertainment system and exterior paintwork have been customized. The aircraft will be put into service after completing the CAAC's additional operational qualification and preparations for the start of flights.</p>
+    <img src="http://m.comac.cc/cp/c919/202212/09/W020221209401706403788.jpg" alt="919" style="width:1100px;height:550px;text-align: center;padding-left: 45px;">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="nav-bar">
+    <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/%E4%B8%BB%E9%A1%B5.html">Home Page</a>
+    <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/C919.html">About C919</a>
+    <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/Arj%2021.html">Arj 21</a>
+</div>
+
