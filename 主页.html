@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMAC - Pioneering the Skies</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0;
+        background-image: url(https://5b0988e595225.cdn.sohucs.com/images/20200111/1f0400fbd18d4fff9b58eed26bf979a0.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        }
+        h1 {font-family: cursive;
+            color: #050223;
+            font-size: 50px;
+
+        }
+        header { background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTJ4EX0ZGWN0FsoidU4bA_1MOilXwj8jx4KA&usqp=CAU);background-repeat: no-repeat; color: rgb(5, 5, 5); padding: 20px; text-align: center; }
+        section { padding: 20px; }
+        h2 { color: #01042d; }
+        footer { background-color: #003366; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        .nav-bar { 
+        background-color: #06295b; 
+        overflow: hidden;
+        display: inline-block;
+        border-radius: 10px; 
+    }
+    .nav-bar a{ 
+        float: left; 
+        display: block; 
+        color: rgb(248, 250, 251); 
+        padding: 15px 20px;
+        text-align: center; 
+        text-decoration:wavy;
+        font-family: monospace;
+    } 
+    .nav-bar a:hover{background-image: url(data:image/jpeg;base64,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);
+                    
+} 
+p {font-family: monospace;
+   
+
+}
+#d5{position: absolute;
+        top: 10px;
+        left:830px;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>COMAC</h1>
+    </header>
+    <img src="https://www.shutterstock.com/shutterstock/videos/1104721667/thumb/1.jpg?ip=x480" alt="919" style="width:350px;height:200px;position: absolute;top: 30px;left: 800px;border: #003366;border-radius: 20px;">
+
+    <section>
+        <h2>About COMAC</h2>
+        <div class="nav-bar">
+        
+        <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/About%20Comac.html">learn more</a >
+        </div>
+        <p>COMAC, or Commercial Aircraft Corporation of China, Ltd., is a central player in China's strategic plan to establish a significant presence in the global aerospace industry. Founded in 2008, COMAC is tasked with the development and production of jet aircraft that can compete on the international stage.</p >
+
+        <h2>Our Aircraft</h2><img src="https://chinaerospace.oss-cn-beijing.aliyuncs.com/uploads/2023/04/12/6x4aP_%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20230412100527.png" alt="img of C919" style="float:right;width:300px;height:190px;border: #003366;border-radius: 20px;">
+        <h3>C919</h3>
+        <div class="nav-bar">
+        <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/C919.html">learn more</a>
+        </div>
+        <p>The C919 is a single-aisle jetliner designed to compete directly with the Airbus A320neo and Boeing 737 MAX series. With a standard range of 4,075 to 5,555 kilometers, the C919 aims to meet the growing demand for commercial air travel in China and abroad.</p >
+
+        <h3>ARJ21</h3>
+        <div class="nav-bar">
+        <a href="file:///Users/liujunming/Documents/GitHub/ikun2.5.6/Arj%2021.html">learn more</a >
+        </div>
+        <p>The ARJ21, or Advanced Regional Jet for the 21st Century, is COMAC's first foray into commercial aircraft manufacturing. Designed to serve short to medium-haul routes, the ARJ21 is a symbol of China's ambitions in the regional jet market.</p >
+            <div style="margin:auto; text-align:center;"><video controls >
+                <source src="http://www.comac.cc/video/dafeijilaile.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+    </section>
+
+    <footer>
+        <p>© 2024 COMAC </p >
+    </footer>
+</body>
+</html>
